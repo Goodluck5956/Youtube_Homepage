@@ -57,3 +57,45 @@ display: flex;
   border-radius: 0;
   height: 100%;
 }
+
+.mainBody {
+  height: 70px;
+  display: flex;
+}
+
+.sideBar {
+  height: 500%;
+  width: 230px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.sideBar_categories {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.sideBar_category {
+display: flex;
+align-items: center;
+padding: 12px 25px;
+}
+.sideBar_category span{
+margin-left: 15px;
+}
+.sideBar_category:hover {
+  background: grey;
+  cursor: pointer;
+}
+.sideBar::-webkit-scrollbar {
+  display: none;
+}
+
+hr {
+  height: 1px;
+  background-color: grey;
+  border: none;
+}
+
