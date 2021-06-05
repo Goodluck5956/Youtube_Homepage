@@ -35,3 +35,11 @@
     padding: 0px 7px;
     cursor: pointer;
 }
+
+.header_search form{
+border: 1px solid grey;
+height: 35px;
+margin: 0px;
+padding: 0px;
+display: flex;
+}
